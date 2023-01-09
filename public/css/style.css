@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+#city {
+  position: absolute;
+  top: 255px;
+  right: 33%;
+  width: 700px;
+  height: 40px;
+  outline: none;
+  background-color: #f1f1f175;
+  border-color: #205295;
+  border-radius: 25px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #3C3C3C;
+  box-shadow: 0 0 1rem 0 rgba(13, 13, 13, 0.5)
+}
+
+#city::placeholder {
+  font-size: 15px;
+  font-weight: 700;
+  color: #3C3C3C;
+}
+
+svg {
+  position: absolute;
+  top: 263px;
+  right: 34%;
+  cursor: pointer;
+}
+
+.date {
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  width: 100%;
+  font-size: 35px;
+  font-size: 400;
+  color: #fff;
+}
+
+.data {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 46%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.place-info, .temp, .disc {
+  font-size: 75px;
+  font-weight: 900;
+  color: #263159;
+  line-height: 80px;
+}
+
+.place-info {
+  width: 80vw;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.disc {
+  width: 80vw;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.info-card {
+  width: 600px;
+  height: 240px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 50.4%;
+  transform: translateX(-55%);
+  bottom: 10%;
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2)
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+
+.box1 {
+  margin-left: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-card p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.quotes {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  position: absolute;
+  bottom: 50px;
+  width: 500px;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
